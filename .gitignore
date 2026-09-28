@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+
+/.bundle
+/vendor/bundle
+/log/
+/tmp/
+/db/*.sqlite3
+/db/*.sqlite3-*
+/public/assets
+/public/packs
+/coverage/
+/.byebug_history
+/.ruby-version
+/.env
+/.DS_Store
+
+# Ignore local environment files
+.env.*
+
+# Ignore editor settings
+/.idea/
+/.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
